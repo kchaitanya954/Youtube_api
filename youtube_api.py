@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
 
 #Set up YouTube credentials
-DEVELOPER_KEY = 'AIzaSyCooib1DVwZ9wXg26X3BqiO3eBzNcmgIL4'
+DEVELOPER_KEY = 'enter api key'
 YOUTUBE_API_SERVICE_NAME = "youtube"
 YOUTUBE_API_VERSION = "v3"
 youtube = build(YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION,developerKey=DEVELOPER_KEY)
